@@ -1,3 +1,3 @@
-let test = "max";
+import './block-scope';
 
-console.log("yo")
+
