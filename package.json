@@ -1,0 +1,20 @@
+{
+  "name": "es6-and-above",
+  "version": "1.0.0",
+  "description": "playround for experimenting with latest ECMA features",
+  "main": "./src/index.js",
+  "repository": "https://github.com/maximus1108/es6-and-above.git",
+  "author": "Max Perry <max.perry1108@yahoo.co.uk>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js  --config ./config/webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
