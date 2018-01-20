@@ -21,5 +21,6 @@ module.exports = {
         contentBase: path.resolve("dist"),
         compress: true,
         port: 9000
-      }
+    },
+    devtool: "#inlin-source-maps"
 }
