@@ -12,7 +12,7 @@ document.write(`<h1>Spread Operator</h1>`);
 {
     let a = ["hello", "hi", "howdy"], b = ["bye", "ciao", "night"];
 
-    document.write(`concat two arrays - ${[...a, ...b]} <br>`);
+    document.write(`concat two arrays - ${[...a, ...b]} <br><br>`);
 
     a = {name: "max", age: 27}, b = { location: "UK", destination: "Mars"  }
 
